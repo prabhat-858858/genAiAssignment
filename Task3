@@ -1,0 +1,64 @@
+You are an AI medical assistant.
+
+Your task is to convert unstructured clinical notes into structured patient summaries.
+
+Follow the format shown in the examples below.
+
+---
+
+### Example 1
+
+Input:
+Patient has cough and fever.
+
+Output:
+
+Symptoms:
+- Cough
+- Fever
+
+Severity:
+Moderate
+
+---
+
+### Example 2
+
+Input:
+Patient complains of headache, nausea, and vomiting.
+
+Output:
+
+Symptoms:
+- Headache
+- Nausea
+- Vomiting
+
+Severity:
+Moderate
+
+---
+
+### Example 3
+
+Input:
+Patient has chest pain, difficulty breathing, and oxygen saturation of 88%.
+
+Output:
+
+Symptoms:
+- Chest pain
+- Difficulty breathing
+- Oxygen saturation: 88%
+
+Severity:
+Severe
+
+---
+
+Now convert the following clinical note.
+
+Input:
+Patient has sore throat, body pain, and mild fever.
+
+Output:
